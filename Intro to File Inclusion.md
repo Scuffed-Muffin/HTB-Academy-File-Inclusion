@@ -7,7 +7,7 @@ In many modern back-end languages such as PHP, Javascript or Java which use HTTP
 LFI vulnrabilities are most frequently found in templating engines. These are software tools that combine static template files with dynamic data to produce web pages. This includes common parts such as the header, navigation bar or footer.<br>
 These vunrabilities can lead to source code disclosure, sensitive data exposure or remote code execution.
 <h3>Examples of vulnrable code</h3>
-In PHP the ```include(```) function is used to load local or remote files. If the ```include()``` function is taken from a user-controlled paramater such as ```GET``` and if the code does not filter and sanitize the user input, the code is vulrable to remote file inclusion.For example:
+In PHP the ```include()``` function is used to load local or remote files. If the ```include()``` function is taken from a user-controlled paramater such as ```GET``` and if the code does not filter and sanitize the user input, the code is vulrable to remote file inclusion.For example:
 ```
 if (isset($_GET['language'])) {
     include($_GET['language']);
