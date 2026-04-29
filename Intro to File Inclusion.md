@@ -13,3 +13,4 @@ if (isset($_GET['language'])) {
     include($_GET['language']);
 }
 ```
+Within this the language paramater from the GET function is directly linked to the include() function without any sanitization. This means that any path that we pass through the language paramater will be loaded onto the page including local files.
