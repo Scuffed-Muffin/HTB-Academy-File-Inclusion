@@ -1,6 +1,3 @@
-**Lab name: File Inclusiony** <br>
-*Link to Lab:* https://academy.hackthebox.com/app/module/23
-<br><br><br>
 <h3>Intro to File inclusion</h3>
 In many modern back-end languages such as PHP, Javascript or Java which use HTTP paramaters, if the functionalities are not securely coded, an attacker can display any local file on the hosting server, also known as a Local File Inclusion Vulnrability.
 <h3>Local File Inclusion (LFI)</h3>
